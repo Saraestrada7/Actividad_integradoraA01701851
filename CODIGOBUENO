@@ -1,0 +1,9 @@
+#en esta parte del codigo vamos a agregar la imagen de un policia en la parte de arriba seguido de un titulo y dos subheaders
+data = pd.read_csv("Police.csv")
+df = data.fillna(method='bfill')
+image_path = "https://petco-my.sharepoint.com/:i:/r/personal/457032_petco_com/Documents/Desktop/policias-estados-unidos.jpg?csf=1&web=1&e=hnGcZg"
+st.image(image_path, use_column_width=True)
+st.title("ACTIVIDAD INTEGRADORA")
+st.subheader('Police Incident Reports from 2018 to 2020 in San Francisco')
+st.subheader('SARA ESTRADA A01701851')
+st.sidebar.title('SFPD Category Filter')
