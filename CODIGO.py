@@ -7,7 +7,6 @@ from pathlib import Path
 #import streamlit_authenticator as stauth
 import time
 import numpy as np 
-#from sklearn.impute import SimpleImputer
 import pandas as pd 
 import matplotlib.pyplot as plt
 import base64
