@@ -1,4 +1,10 @@
 pip install matplotlib
+pip install pandas
+pip install pathlib
+pip install numpy
+pip install plotly
+pip install base64
+
 
 import datetime 
 import pickle 
