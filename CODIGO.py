@@ -1,3 +1,5 @@
+pip install matplotlib
+
 import datetime 
 import pickle 
 from pathlib import Path
