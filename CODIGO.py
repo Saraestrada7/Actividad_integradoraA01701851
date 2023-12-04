@@ -1,11 +1,11 @@
 import datetime 
 import pickle 
 from pathlib import Path
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+#from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 #import streamlit_authenticator as stauth
 import time
 import numpy as np 
-from sklearn.impute import SimpleImputer
+#from sklearn.impute import SimpleImputer
 import pandas as pd 
 import matplotlib.pyplot as plt
 import base64
@@ -28,9 +28,9 @@ from PIL import Image
 #from streamlit_metrics import metric, metric_row 
 #from streamlit_card import card
 #from streamlit_option_menu import option_menu
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
+#from sklearn.ensemble import RandomForestRegressor
+#from sklearn.model_selection import train_test_split
+#from sklearn.metrics import r2_score
 st.set_page_config(page_title='SFPD Dashboard ', page_icon=':bar_chart:', layout='wide')
 
 
